@@ -19,7 +19,7 @@ public class Testing {
 		driver.findElement(By.xpath("//button[@type='submit']")).click();
 		Thread.sleep(3000);
 		driver.close();
-		
+		driver.quit();
 		
 		
 
