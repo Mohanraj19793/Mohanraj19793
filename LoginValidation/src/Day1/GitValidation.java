@@ -12,7 +12,7 @@ public class GitValidation {
 
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\swath\\Desk top\\Mohanraj_Selenium\\ChromeDriver\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
-		driver.manage().window().maximize();
+		
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	}
 
